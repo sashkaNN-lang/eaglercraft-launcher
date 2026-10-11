@@ -52,7 +52,7 @@ Both support English and Russian.
 
 2. Download this repository:
 
-    git clone https://github.com/YOUR_USERNAME/eaglercraft-launcher.git
+    git clone https://github.com/sashkaNN-lang/eaglercraft-launcher.git
     cd eaglercraft-launcher
 
 3. Get game files separately (not included for legal reasons)
