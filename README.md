@@ -51,6 +51,15 @@ For GUI Native (mainGUIweb.py):
 
 ────────────────────────────────────────
 
+🚀 QUICK START
+
+1. Extract the RAR archive.
+2. Run install.cmd (installs pywebview for GUI Native).
+3. Run start.cmd and choose which launcher to start.
+4. Launch and play.
+
+────────────────────────────────────────
+
 🎮 USAGE
 
 Option 1 — double-click start.cmd, pick 1, 2 or 3.
