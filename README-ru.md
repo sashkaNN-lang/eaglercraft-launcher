@@ -74,8 +74,6 @@ Eaglercraft Launcher запускает версии Eaglercraft локальн�
     mainGUIweb.py      # GUI-лаунчер (Tkinter + pywebview) — отдельное окно
     start.cmd          # Меню для Windows
     install.cmd        # Устанавливает pywebview (для GUI Native)
-    README.md
-    LICENSE
     versions/          # игровые файлы (НЕ входят в репо)
 
 ────────────────────────────────────────
