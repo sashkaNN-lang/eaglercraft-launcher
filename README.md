@@ -1,6 +1,6 @@
 🎮 Eaglercraft Launcher
 
-A simple local launcher for Eaglercraft — run any version right in your browser.
+A simple local launcher for Eaglercraft — run any version right in your browser or in a native window.
 
 ⚠️ DISCLAIMER
 
@@ -16,23 +16,25 @@ No ads. No monetization.
 
 📖 ABOUT
 
-Eaglercraft Launcher runs Eaglercraft versions locally with one click. It starts a local HTTP server, opens your browser, and serves the game.
+Eaglercraft Launcher runs Eaglercraft versions locally with one click. It starts a local HTTP server and serves the game.
 
-Two interfaces:
-- CLI (main.py)
-- GUI (mainGUI.py)
+Three interfaces:
+- CLI (main.py) — simple text menu
+- GUI (mainGUI.py) — dark-themed window, opens game in browser
+- GUI Native (mainGUIweb.py) — same window, opens game in a separate native window via pywebview
 
-Both support English and Russian.
+All support English and Russian.
 
 ────────────────────────────────────────
 
 ✨ FEATURES
 
-- Versions: 1.3 beta, 1.5.2, 1.7.3 beta, 1.8.8, 1.12.2, 26.2
+- Versions: 1.3 beta, 1.5.2, 1.7.3 beta, Indev, Scratch, 1.8.8, 1.12.2, 26.2
 - WASM / JS loaders for 1.8.8 and 1.12.2
 - English & Russian UI
-- Auto-opens browser
-- No dependencies — pure Python standard library
+- Auto-opens browser (CLI / GUI) or native window (GUI Native)
+- No dependencies for CLI and GUI — pure Python standard library
+- pywebview required for GUI Native (installed via install.cmd)
 
 ────────────────────────────────────────
 
@@ -43,18 +45,23 @@ Both support English and Russian.
 - Any modern browser
 - ~250 MB disk space for game files
 
+For GUI Native (mainGUIweb.py):
+- pywebview (install via install.cmd)
+- Microsoft Edge WebView2 (usually pre-installed on Windows 10/11)
+
 ────────────────────────────────────────
 
 🎮 USAGE
 
-Option 1 — double-click start.cmd, pick 1 or 2.
+Option 1 — double-click start.cmd, pick 1, 2 or 3.
 
 Option 2 — run manually:
 
-    python main.py       (CLI)
-    python mainGUI.py    (GUI)
+    python main.py          (CLI)
+    python mainGUI.py       (GUI — opens in browser)
+    python mainGUIweb.py    (GUI Native — opens in a separate window)
 
-Then choose language, version, loader (if needed) — browser opens automatically.
+Then choose language, version, loader (if needed) — the game opens automatically.
 
 To stop: close window or press Enter.
 
@@ -63,10 +70,11 @@ To stop: close window or press Enter.
 📁 STRUCTURE
 
     main.py            # CLI launcher
-    mainGUI.py         # GUI launcher (Tkinter)
+    mainGUI.py         # GUI launcher (Tkinter) — browser
+    mainGUIweb.py      # GUI launcher (Tkinter + pywebview) — native window
     start.cmd          # Windows menu
+    install.cmd        # Installs pywebview (for GUI Native)
     README.md
-    CHANGELOG.md
     LICENSE
     versions/          # game files (NOT included)
 
@@ -87,7 +95,7 @@ NOT covered by MIT:
 
 - Eaglercraft by LAX1DUDE
 - Minecraft by Mojang / Microsoft
-- Launcher code by me (GUI with AI assistance)
+- Launcher code by me (GUI and GUI Native with AI assistance)
 - Design inspired by Catppuccin
 
 ────────────────────────────────────────
