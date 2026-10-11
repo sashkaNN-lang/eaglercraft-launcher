@@ -1,7 +1,6 @@
 [English](README.md) | [Русский](README-ru.md)
 
 ![Screenshot](docs/screnGUI_en.jpg)
-
 ![Screenshot](docs/start.cmd.jpg)
 
 🎮 Eaglercraft Launcher
