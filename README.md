@@ -74,8 +74,6 @@ To stop: close window or press Enter.
     mainGUIweb.py      # GUI launcher (Tkinter + pywebview) — native window
     start.cmd          # Windows menu
     install.cmd        # Installs pywebview (for GUI Native)
-    README.md
-    LICENSE
     versions/          # game files (NOT included)
 
 ────────────────────────────────────────
