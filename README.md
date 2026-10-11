@@ -45,29 +45,6 @@ Both support English and Russian.
 
 ────────────────────────────────────────
 
-🚀 INSTALLATION
-
-1. Install Python 3.10+ from python.org
-   During install, check "Add Python to PATH".
-
-2. Download this repository:
-
-    git clone https://github.com/sashkaNN-lang/eaglercraft-launcher.git
-    cd eaglercraft-launcher
-
-3. Get game files separately (not included for legal reasons)
-   and place them into versions/ like this:
-
-    versions/
-    ├── 1.3 beta/1.3_beta.html
-    ├── 1.5.2/1.5.2.html
-    ├── 1.7.3 beta/1.7.3_beta.html
-    ├── 1.8.8/1.8.8WASM.html + 1.8.8JS.html
-    ├── 1.12.2/1.12.2WASM.html + 1.12.2JS.html
-    └── 26.2/26.2.html
-
-────────────────────────────────────────
-
 🎮 USAGE
 
 Option 1 — double-click start.cmd, pick 1 or 2.
