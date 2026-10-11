@@ -1,3 +1,9 @@
+[English](README.md) | [Русский](README-ru.md)
+
+![Screenshot](docs/screnGUI_en.jpg)
+
+![Screenshot](docs/start.cmd.jpg)
+
 🎮 Eaglercraft Launcher
 
 A simple local launcher for Eaglercraft — run any version right in your browser or in a native window.
