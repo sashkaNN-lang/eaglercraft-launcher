@@ -72,17 +72,6 @@ To stop: close window or press Enter.
 
 ────────────────────────────────────────
 
-📜 CHANGELOG
-
-Latest — 0.1.1 Alpha (2026-10-11):
-- Added GUI launcher (mainGUI.py)
-- Updated start.cmd
-- Published on GitHub
-
-Full history: see CHANGELOG.md
-
-────────────────────────────────────────
-
 ⚖️ LICENSE
 
 MIT — applies only to launcher code.
