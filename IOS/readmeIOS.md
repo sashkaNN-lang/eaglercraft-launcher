@@ -87,9 +87,3 @@ The shortcut:
 
 The game opens in **Safari**. Choose a version, play.
 
----
-
-## 🎮 HOW TO PLAY
-
-1. Run the **launch shortcut** (the second one)
-2. A menu will appear in a-Shell:
