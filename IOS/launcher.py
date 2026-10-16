@@ -4,7 +4,7 @@ import subprocess
 import urllib.request
 import zipfile
 
-target_dir = os.path.expanduser("~/Documents/Eagler-craft launcher/eaglercraft launcher/eaglercraft launcher")
+target_dir = os.path.expanduser("~/Documents/Eagler-craft launcher/eaglercraft launcher/eaglercraft launcher/eaglercraft launcher")
 main_script = os.path.join(target_dir, "main.py")
 
 if os.path.exists(main_script):
