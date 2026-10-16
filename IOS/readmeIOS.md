@@ -2,7 +2,7 @@
 
 Версия лаунчера для iPhone и iPad через приложение **a-Shell mini**.
 
-Основной проект (Windows) — в [README.md](README.md).
+Основной проект (Windows).
 
 ---
 
