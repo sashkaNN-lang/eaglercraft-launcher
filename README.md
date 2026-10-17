@@ -58,26 +58,46 @@ For GUI Native (mainGUIweb.py):
 
 🚀 QUICK START
 
-1. Extract the RAR archive.
+**Windows:**
+1. Extract the archive.
 2. Run install.cmd (installs pywebview for GUI Native).
 3. Run start.cmd and choose which launcher to start.
 4. Launch and play.
+
+**MLA (Mac, Linux, Android):**
+1. Extract the archive.
+2. Open Terminal.
+3. Make scripts executable:
+   chmod +x start.sh install.sh
+4. Install dependencies (for GUI Native):
+   ./install.sh
+5. Run the launcher:
+   ./start.sh
+6. Choose which launcher to start and play.
+
+*(For Android, use Termux. Install Python first: `pkg install python`)*
 
 ────────────────────────────────────────
 
 🎮 USAGE
 
+**Windows:**
 Option 1 — double-click start.cmd, pick 1, 2 or 3.
-
 Option 2 — run manually:
-
     python main.py          (CLI)
     python mainGUI.py       (GUI — opens in browser)
     python mainGUIweb.py    (GUI Native — opens in a separate window)
 
-Then choose language, version, loader (if needed) — the game opens automatically.
+**MLA (Mac, Linux, Android):**
+Option 1 — run in terminal:
+    ./start.sh
+Option 2 — run manually:
+    python3 main.py
+    python3 mainGUI.py
+    python3 mainGUIweb.py
 
-To stop: close window or press Enter.
+Then choose language, version, loader (if needed) — the game opens automatically.
+To stop: close window or press Ctrl+C (MLA) / Enter (Windows).
 
 ────────────────────────────────────────
 
@@ -87,7 +107,9 @@ To stop: close window or press Enter.
     mainGUI.py         # GUI launcher (Tkinter) — browser
     mainGUIweb.py      # GUI launcher (Tkinter + pywebview) — native window
     start.cmd          # Windows menu
-    install.cmd        # Installs pywebview (for GUI Native)
+    install.cmd        # Installs pywebview (Windows)
+    start.sh           # MLA menu
+    install.sh         # Installs pywebview (MLA)
     versions/          # game files (NOT included)
 
 ────────────────────────────────────────
