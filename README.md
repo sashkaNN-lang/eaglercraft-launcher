@@ -3,6 +3,14 @@
 ![Screenshot](docs/screnGUI_en.jpg)
 ![Screenshot](docs/start.cmd.jpg)
 
+<a href="https://www.star-history.com/?repos=sashkann-lang%2Feaglercraft-launcher&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sashkann-lang/eaglercraft-launcher&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=sashkann-lang/eaglercraft-launcher&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=sashkann-lang/eaglercraft-launcher&type=date&legend=top-left" />
+ </picture>
+</a>
+
 🎮 Eaglercraft Launcher
 
 A simple local launcher for Eaglercraft — run any version right in your browser or in a native window.
