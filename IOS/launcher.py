@@ -6,7 +6,7 @@ import zipfile
 import shutil
 
 TARGET_DIR = os.path.expanduser("~/Documents/eaglercraft-launcher")
-ZIP_URL = "https://github.com/sashkaNN-lang/eaglercraft-launcher/releases/latest/download/eaglercraft-launcher.zip"
+ZIP_URL = "https://github.com/sashkaNN-lang/eaglercraft-launcher/releases/latest/download/eaglercraft-launcher-ios.zip"
 ZIP_PATH = os.path.join(TARGET_DIR, "temp.zip")
 
 
