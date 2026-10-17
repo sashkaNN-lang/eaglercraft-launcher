@@ -58,26 +58,46 @@ Eaglercraft Launcher запускает версии Eaglercraft локальн�
 
 🚀 БЫСТРЫЙ СТАРТ
 
-1. Разархивируй RAR-архив.
+**Windows:**
+1. Разархивируй архив.
 2. Запусти install.cmd (устанавливает pywebview для GUI Native).
 3. Запусти start.cmd и выбери, какой лаунчер запустить.
 4. Запускай и играй.
+
+**MLA (Mac, Linux, Android):**
+1. Разархивируй архив.
+2. Открой терминал.
+3. Сделай скрипты исполняемыми:
+   chmod +x start.sh install.sh
+4. Установи зависимости (для GUI Native):
+   ./install.sh
+5. Запусти лаунчер:
+   ./start.sh
+6. Выбери лаунчер и играй.
+
+*(Для Android используй Termux. Сначала установи Python: `pkg install python`)*
 
 ────────────────────────────────────────
 
 🎮 ЗАПУСК
 
+**Windows:**
 Способ 1 — двойной клик по start.cmd, выбери 1, 2 или 3.
-
 Способ 2 — запусти вручную:
-
     python main.py          (CLI)
     python mainGUI.py       (GUI — открывает в браузере)
     python mainGUIweb.py    (GUI Native — открывает в отдельном окне)
 
-Дальше выбери язык, версию, загрузчик (если нужно) — игра откроется сама.
+**MLA (Mac, Linux, Android):**
+Способ 1 — запусти в терминале:
+    ./start.sh
+Способ 2 — запусти вручную:
+    python3 main.py
+    python3 mainGUI.py
+    python3 mainGUIweb.py
 
-Остановка: закрой окно или нажми Enter.
+Дальше выбери язык, версию, загрузчик (если нужно) — игра откроется сама.
+Остановка: закрой окно или нажми Ctrl+C (MLA) / Enter (Windows).
 
 ────────────────────────────────────────
 
@@ -87,7 +107,9 @@ Eaglercraft Launcher запускает версии Eaglercraft локальн�
     mainGUI.py         # GUI-лаунчер (Tkinter) — браузер
     mainGUIweb.py      # GUI-лаунчер (Tkinter + pywebview) — отдельное окно
     start.cmd          # Меню для Windows
-    install.cmd        # Устанавливает pywebview (для GUI Native)
+    install.cmd        # Устанавливает pywebview (Windows)
+    start.sh           # Меню для MLA (Mac, Linux, Android)
+    install.sh         # Устанавливает pywebview (MLA)
     versions/          # игровые файлы (НЕ входят в репо)
 
 ────────────────────────────────────────
