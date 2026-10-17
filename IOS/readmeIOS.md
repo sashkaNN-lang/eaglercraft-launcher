@@ -2,7 +2,7 @@
 
 Launcher version for iPhone and iPad via the **a-Shell mini** app.
 
-Main project (Windows).
+Main project (Windows / Mac / Linux / Android)
 
 ---
 
@@ -23,7 +23,7 @@ No ads. No monetization.
 The iOS version of Eaglercraft Launcher works via **a-Shell mini** — a terminal with Python for iPhone and iPad.
 
 Since iOS has no `.cmd` or `tkinter`, this version:
-- Uses **Shortcuts** instead of `start.cmd`
+- Uses **one Shortcut** instead of `start.cmd`
 - Works **only via CLI** (text menu)
 - Opens the game in **Safari**
 
@@ -35,8 +35,8 @@ Since iOS has no `.cmd` or `tkinter`, this version:
 - WASM / JS loaders for 1.8.8 and 1.12.2
 - Interface in English and Russian
 - Auto-open Safari
-- Update check
 - Works fully on-device, no internet after installation
+- **One-click launch** — no need for two shortcuts
 
 ---
 
@@ -56,34 +56,44 @@ Since iOS has no `.cmd` or `tkinter`, this version:
 
 Download **a-Shell mini** from the App Store. It's free.
 
-### Step 2: Install the launcher
+### Step 2: Install the shortcut
 
-Open the installation shortcut link:
+Open the link:
 
-**https://www.icloud.com/shortcuts/7b6d0e7233e044a4a9a6353c24aeadaa**
+**https://www.icloud.com/shortcuts/e86f2f580f6a46bfade6d2882599d3b9**
 
-Tap **"Add Shortcut"** → run it.
+Tap **"Add Shortcut"**.
 
-The shortcut:
-- Downloads the `.zip` of the latest release from GitHub
-- Unpacks it to `~/Documents/eaglercraft-launcher`
-- Prepares everything for launch
+### Step 3: Run the shortcut
 
-### Step 3: Launch the launcher
+Open the shortcut from the Shortcuts app.
 
-Open the launch shortcut link:
+What happens automatically:
+1. Checks if the launcher is installed.
+2. If not — downloads the `.zip` of the latest release from GitHub.
+3. Unpacks it to `~/Documents/eaglercraft-launcher`.
+4. Runs `python main.py` in a-Shell mini.
 
-**https://www.icloud.com/shortcuts/3309b90b659f445ea9430e579ae33e98**
-
-Tap **"Add Shortcut"** → run it.
-
-The shortcut:
-- Opens a-Shell mini
-- Runs `python main.py`
-- You choose language, version, loader
-- Safari opens automatically with the game
+*Note: the shortcut does NOT update the launcher automatically.*
 
 ### Step 4: Play
 
-The game opens in **Safari**. Choose a version, play.
+Choose language, version, and loader in the a-Shell menu.
+The game opens in **Safari** automatically.
 
+---
+
+## 🔄 UPDATING (MANUAL)
+
+To update to a new version, you need to delete the old files first.
+
+**How to update:**
+1. Open **a-Shell mini**.
+2. Enter these commands one by one:
+
+   rm -rf ~/Documents/eaglercraft-launcher
+   rm -rf ~/Documents/myrepo
+
+3. Close a-Shell mini.
+4. Run the **shortcut** again.
+5. It will automatically download the fresh version.
